@@ -31,6 +31,7 @@ const Header = () => {
           alt=""
           className="w-[220px] h-[45px] hidden lg:block md:block"
         />
+        {/* <h3>Blockopoly</h3> */}
         <img
           src={mobileLogo}
           alt=""

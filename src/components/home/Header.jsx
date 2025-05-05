@@ -13,7 +13,7 @@ const Header = () => {
 
   useEffect(() => {
     if (status === "connected") {
-      navigate("/dashboard");
+      navigate("/dashboard/game");
     } else {
       navigate("/");
     }
